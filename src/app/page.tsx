@@ -5,8 +5,10 @@ import Actions from "./ui/actions";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-8">
-      <Actions />
-      <Todo />
+      <div className="container todo-container">
+        <Actions />
+        <Todo />
+      </div>
     </main>
   );
 }
